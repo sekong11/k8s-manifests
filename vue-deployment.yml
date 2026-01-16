@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: vue-container
-          image: seeking11/k8s-vue-ing:latest
+          image: seeking11/k8s_vue-ing:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
